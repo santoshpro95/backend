@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+  android:layout_below="@+id/top"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/poster_tab"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+         android:layout_width="match_parent"
+         android:id="@+id/pager"
+         android:visibility="visible"
+         android:layout_height="200dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layoutDots"
+            android:layout_marginTop="170dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/pager"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusedByDefault="false"
+    android:id="@+id/top"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+
+
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_weight="1"
+     android:layout_height="wrap_content">
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="35dp"
+         android:layout_margin="10dp"
+         android:hint="Search Foods"
+         android:id="@+id/data"
+         android:paddingLeft="50dp"
+         android:textSize="14sp"
+         android:textStyle="bold"
+         android:fontFamily="sans-serif-light"
+         android:textColor="@android:color/black"
+         android:textColorHint="@color/light_grey"
+         android:background="@drawable/logout_button"/>
+
+
+
+
+
+     <TextView
+         android:layout_width="match_parent"
+         android:text="No Value, 'sdfsdf'"
+         android:gravity="center"
+         android:fontFamily="sans-serif-light"
+         android:id="@+id/msg"
+         android:textSize="14sp"
+         android:visibility="gone"
+         android:textColor="@color/light_grey"
+         android:layout_height="wrap_content" />
+ </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_weight="2"
+        android:id="@+id/location"
+        android:layout_height="55dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Chattarpursdfsdfdsfsdfdsf ddgdfgsgh fgdsfgdfg"
+            android:lines="1"
+            android:layout_marginRight="30dp"
+            android:id="@+id/city_name"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:src="@drawable/arrow"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/search"
+        android:src="@drawable/search"
+        android:tint="@android:color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_height="35dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:layout_height="wrap_content">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:id="@+id/card"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/image"
+                    android:background="@drawable/no_image"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="Sahi Thali"
+                    android:textSize="14sp"
+                    android:id="@+id/name"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="salkfdsj+ poqj sdfdsfdkj dsfsdfsdvdsvdsvsdvdsvdsv"
+                    android:textSize="12sp"
+                    android:textColor="@color/light_grey"
+                    android:id="@+id/items"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#DCDCDC"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="30dp">
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent">
+
+                      <ImageView
+                          android:layout_width="10dp"
+                          android:src="@drawable/rupee"
+                          android:layout_gravity="center"
+                          android:layout_marginRight="2dp"
+
+                          android:layout_height="match_parent" />
+
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:text="240"
+                          android:textSize="13sp"
+                          android:id="@+id/price"
+                          android:gravity="center"
+                          android:textColor="@color/light_grey"
+                          android:layout_height="match_parent" />
+
+
+                  </LinearLayout>
+
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:checked="true"
+                        android:gravity="right"
+                        android:id="@+id/check"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

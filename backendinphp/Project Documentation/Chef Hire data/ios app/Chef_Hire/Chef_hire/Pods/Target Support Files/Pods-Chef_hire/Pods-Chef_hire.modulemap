@@ -1,0 +1,6 @@
+framework module Pods_Chef_hire {
+  umbrella header "Pods-Chef_hire-umbrella.h"
+
+  export *
+  module * { export * }
+}

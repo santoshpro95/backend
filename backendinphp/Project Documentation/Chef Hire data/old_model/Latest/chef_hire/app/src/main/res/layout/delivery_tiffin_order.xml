@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="goodchef.com.chef_hire.tiffin.MyTiffin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/msg"
+        android:gravity="center"
+        android:textColor="@color/light_grey"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:text="No Orders Yet"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:id="@+id/recycler_view"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/left_arrow"
+            android:id="@+id/back"
+            android:tint="@android:color/black"
+            android:padding="13dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Tiffin Orders"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+</RelativeLayout>

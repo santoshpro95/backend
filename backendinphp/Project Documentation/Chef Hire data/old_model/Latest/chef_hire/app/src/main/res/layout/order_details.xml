@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="65dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <!--First-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:id="@+id/image"
+                    android:layout_height="60dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Cooking"
+                        android:layout_margin="15dp"
+                        android:id="@+id/status"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/edittext_border"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Order id: 123124234"
+                        android:paddingLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="5dp"
+                        android:textSize="12sp"
+                        android:id="@+id/order_id"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_alignParentRight="true"
+                        android:layout_height="match_parent" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <!--First tab complete-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:maxWidth="150dp"
+                    android:text="lkjkj"
+                    android:textSize="12sp"
+                    android:id="@+id/food_name"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:maxWidth="150dp"
+                    android:textSize="12sp"
+                    android:text="4 Meals"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/food_info"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:text="Loading..."
+                    android:paddingRight="10dp"
+                    android:id="@+id/time_left"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <!--Finish 2nd tab-->
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/light_grey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Chef Details"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="60dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/phone_call"
+                            android:tint="@android:color/black"
+                            android:layout_marginTop="5dp"
+                            android:padding="15dp"
+                            android:id="@+id/call"
+                            android:layout_height="50dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:text="Santosh Kumar"
+                                android:textSize="12sp"
+                                android:id="@+id/c_name"
+                                android:textColor="@android:color/black"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:text="99999"
+                                android:textSize="12sp"
+                                android:id="@+id/c_phone"
+                                android:textColor="@color/light_grey"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+
+
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <!--3rd Tab-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Total To Pay"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:src="@drawable/rupee"
+                            android:layout_gravity="center"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="240"
+                            android:gravity="center"
+                            android:id="@+id/food_price"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Finished 3rd tab-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Payment Mode"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Cash on Delivery"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_height="65dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/cancel_order"
+            android:text="Cancel Order"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/colorborder"
+            android:layout_height="40dp" />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/left_arrow"
+            android:id="@+id/back"
+            android:tint="@android:color/black"
+            android:padding="13dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Order Details"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

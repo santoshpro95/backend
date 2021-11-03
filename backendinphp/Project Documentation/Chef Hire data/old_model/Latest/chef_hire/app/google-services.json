@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "841669854636",
+    "firebase_url": "https://checkchef-ed401.firebaseio.com",
+    "project_id": "checkchef-ed401",
+    "storage_bucket": "checkchef-ed401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841669854636:android:40f36320f81d7ded",
+        "android_client_info": {
+          "package_name": "goodchef.com.chef_hire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841669854636-buqnv52too40rl4hlho6egu2k0ueuhf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2fA0hrD94Hi46LZWmMN2eyawVsKS1Btk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

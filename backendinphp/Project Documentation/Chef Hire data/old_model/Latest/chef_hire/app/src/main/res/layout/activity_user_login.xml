@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="goodchef.com.chef_hire.user.UserLogin">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/logo"
+                    android:layout_marginTop="50dp"
+                    android:padding="20dp"
+                    android:layout_height="200dp" />
+
+
+
+
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Phone No"
+                    android:textColorHint="@color/light_grey"
+                    android:padding="10dp"
+                    android:id="@+id/phone"
+                    android:background="@drawable/edittext_border"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="45dp" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:textCursorDrawable = "@null"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/password"
+                    android:hint="Password"
+                    android:textSize="14sp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/edittext_border"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/light_grey"
+                    android:padding="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="45dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/login"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textSize="14sp"
+                    android:foreground="?selectableItemBackground"
+                    android:text="Login"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_round_login"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Forgot Password?"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:id="@+id/forgot_pass"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/signup"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="Signup"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/circle_border"
+                    android:textColor="@android:color/black"
+                    />
+
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:src="@drawable/back"
+                    android:padding="13dp"
+                    android:tint="@android:color/black"
+                    android:id="@+id/close"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="User Login"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent"
+
+                    />
+            </RelativeLayout>
+
+
+
+
+</RelativeLayout>

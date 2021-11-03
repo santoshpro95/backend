@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:text="No Orders Yet"
+    android:gravity="center"
+    android:visibility="gone"
+    android:id="@+id/msg"
+    android:textColor="@color/light_grey"
+    android:layout_height="match_parent" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Foods Orders"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+</RelativeLayout>

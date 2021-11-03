@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="goodchef.com.chef_hire.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_transparent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <!--User-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent" >
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:foreground="?selectableItemBackground"
+                 android:clickable="true"
+                 android:background="@drawable/circle_border"
+                 android:layout_height="90dp">
+
+
+                 <ImageView
+                     android:layout_width="60dp"
+                     android:src="@drawable/account2"
+                     android:id="@+id/user"
+                     android:padding="10dp"
+                     android:tint="@android:color/black"
+                     android:layout_height="60dp" />
+
+             </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="User"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        <!--Chef-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:foreground="?selectableItemBackground"
+                    android:clickable="true"
+                    android:background="@drawable/circle_border"
+                    android:layout_height="90dp">
+
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:src="@drawable/chef2"
+                        android:id="@+id/chef"
+                        android:padding="10dp"
+                        android:tint="@android:color/black"
+                        android:layout_height="60dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Chef"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+        <!--Tiffin Owner-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+        <!--Delivery Man-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:layout_width="90dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:foreground="?selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/circle_border"
+                android:layout_height="90dp">
+
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:src="@drawable/delivery"
+                    android:id="@+id/delivery"
+                    android:padding="5dp"
+                    android:tint="@android:color/black"
+                    android:layout_height="60dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Delivery"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/app_start_notice"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

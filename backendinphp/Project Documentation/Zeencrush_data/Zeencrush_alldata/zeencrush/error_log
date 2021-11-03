@@ -1,0 +1,70 @@
+[05-Sep-2017 05:37:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'santoshpro95@localhost'@'localhost' (using password: NO) in /home/santoshpro95/public_html/zeencrush/login.php on line 7
+[05-Sep-2017 05:37:33 UTC] PHP Notice:  Trying to get property of non-object in /home/santoshpro95/public_html/zeencrush/login.php on line 9
+[05-Sep-2017 05:37:33 UTC] PHP Notice:  Undefined index: fb_id in /home/santoshpro95/public_html/zeencrush/login.php on line 15
+[05-Sep-2017 05:37:33 UTC] PHP Notice:  Undefined index: name in /home/santoshpro95/public_html/zeencrush/login.php on line 16
+[05-Sep-2017 05:37:33 UTC] PHP Fatal error:  Call to a member function query() on boolean in /home/santoshpro95/public_html/zeencrush/login.php on line 23
+[05-Sep-2017 05:39:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'santoshpro95'@'localhost' (using password: NO) in /home/santoshpro95/public_html/zeencrush/login.php on line 7
+[05-Sep-2017 05:39:11 UTC] PHP Notice:  Trying to get property of non-object in /home/santoshpro95/public_html/zeencrush/login.php on line 9
+[05-Sep-2017 05:39:11 UTC] PHP Notice:  Undefined index: fb_id in /home/santoshpro95/public_html/zeencrush/login.php on line 15
+[05-Sep-2017 05:39:11 UTC] PHP Notice:  Undefined index: name in /home/santoshpro95/public_html/zeencrush/login.php on line 16
+[05-Sep-2017 05:39:11 UTC] PHP Fatal error:  Call to a member function query() on boolean in /home/santoshpro95/public_html/zeencrush/login.php on line 23
+[05-Sep-2017 06:01:54 UTC] PHP Notice:  Undefined variable: sql2 in /home/santoshpro95/public_html/zeencrush/login.php on line 35
+[05-Sep-2017 06:04:51 UTC] PHP Notice:  Undefined variable: sql2 in /home/santoshpro95/public_html/zeencrush/login.php on line 35
+[05-Sep-2017 06:08:26 UTC] PHP Notice:  Undefined variable: sql2 in /home/santoshpro95/public_html/zeencrush/login.php on line 35
+[05-Sep-2017 06:14:37 UTC] PHP Notice:  Undefined variable: sql2 in /home/santoshpro95/public_html/zeencrush/login.php on line 35
+[05-Sep-2017 10:47:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 10:47:40 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/santoshpro95/public_html/zeencrush/home.php on line 17
+[05-Sep-2017 10:48:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 10:48:46 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/santoshpro95/public_html/zeencrush/home.php on line 17
+[05-Sep-2017 10:50:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 10:50:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/santoshpro95/public_html/zeencrush/home.php on line 17
+[05-Sep-2017 11:07:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 11:08:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 11:11:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:04:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:08:42 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:23 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:09:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:46:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:46:57 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:47:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:47:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:48:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:48:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:48:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:48:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 13:49:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:03:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:03:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:03:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:05:41 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:12:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:13:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:14:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 14:16:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:29:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:34:30 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:35:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 16:35:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 17:14:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 17:15:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 17:18:37 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 17:21:06 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[05-Sep-2017 17:22:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/santoshpro95/public_html/zeencrush/home.php on line 2
+[17-Oct-2017 07:10:54 UTC] PHP Notice:  Undefined variable: sql2 in /home/santoshpro95/public_html/zeencrush/login.php on line 35

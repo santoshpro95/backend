@@ -1,0 +1,80 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+<style type="text/css">
+
+.head{
+text-align: center;
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="container"><h3 class='head'> New Tiffin Service register</h3><hr><a target="_blank" style = " float: right" href= "https://www.latlong.net/convert-address-to-lat-long.html"> GET Lat log </a>
+</div>
+
+<div class="container">
+
+			<form action="new_service.php" method='post' enctype="multipart/form-data" >
+			
+		
+		    <br> <br>
+		    
+			<div class="col-sm-6">
+			
+			 Enter Name: <input type="text" name="name" placeholder="Name"  required="true"> <br> <br>
+			 
+			 
+			Image: <input type="file" name="file"/><br><br>
+			
+			Service id:  <input type="text" name="s_id"   required="true"> <br> <br>
+			
+			breakfast:  <input type="text" name="breakfast" required="true"> <br> <br>
+			lunch:  <input type="text" name="lunch" required="true"> <br> <br>
+			dinner:  <input type="text" name="dinner" required="true"> <br> <br>
+			
+			Information :  <input type="text" name="info" required="true"> <br> <br>
+			Address:  <input type="text" name="address" required="true"> <br> <br>
+			Phone No:  <input type="text" name="phone" required="true"> <br> <br>
+			State:  <input type="text" name="state" required="true"> <br> <br>
+			
+		</div>
+			
+		<div class="col-sm-6">
+			<h3> Menu </h3>
+			<hr>
+			Monday:  <input type="text" name="mon" > <br> <br>
+			Tuesday:  <input type="text" name="tue" > <br> <br>
+			Wednesday:  <input type="text" name="wed" > <br> <br>
+			Thursday:  <input type="text" name="thu" > <br> <br>
+			
+			Friday:  <input type="text" name="fri" > <br> <br>
+			Saturday:  <input type="text" name="sat" > <br> <br>
+			Sunday:  <input type="text" name="sun"> <br> <br>
+			
+		
+			
+			<button type="submit" class="btn btn-primary"> Submit</button>
+			</div>
+			
+			
+			</div>
+			</form>
+	
+</div>
+</body>
+</html>

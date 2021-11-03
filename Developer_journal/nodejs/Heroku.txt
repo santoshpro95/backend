@@ -1,0 +1,6 @@
+Deploy code in Heroku using GIt
+
+$ git init
+$ git add .
+$ git commit -m "message"
+$ git push 

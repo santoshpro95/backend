@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Chefooz</string>
+    <string name="app_start_notice">Notice: User can Order foods and Tiffins in this app, For Newly registered Chef,
+        we will do verification, After verification,  chef can take orders from users. </string>
+
+</resources>

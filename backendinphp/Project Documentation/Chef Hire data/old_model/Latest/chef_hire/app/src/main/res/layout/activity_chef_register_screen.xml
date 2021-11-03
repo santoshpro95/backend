@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="goodchef.com.chef_hire.chef.ChefRegisterScreen">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_border"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:text="Choose where do you work?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="50dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/home"
+                android:orientation="horizontal"
+                android:background="@drawable/logout_button"
+                android:layout_marginRight="20dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Home"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:src="@drawable/tick"
+                    android:id="@+id/h_tick"
+                    android:tint="@color/colorPrimaryDark"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/resturant"
+                android:orientation="horizontal"
+                android:background="@drawable/logout_button"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Resturant"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:src="@drawable/tick"
+                    android:visibility="gone"
+                    android:id="@+id/r_tick"
+                    android:tint="@color/colorPrimaryDark"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="Name"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/light_grey"
+        android:background="@drawable/edittext_border"
+        android:id="@+id/name"
+        android:layout_height="45dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Address"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:id="@+id/address"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/light_grey"
+        android:background="@drawable/edittext_border"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:id="@+id/password"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/light_grey"
+        android:background="@drawable/edittext_border"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="Phone"
+        android:padding="5dp"
+        android:inputType="number"
+        android:background="@drawable/edittext_border"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/phone"
+        android:textColorHint="@color/light_grey"
+        android:layout_height="45dp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:id="@+id/email"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/light_grey"
+        android:background="@drawable/edittext_border"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:foreground="?selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/go"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="Signup"
+        android:background="@drawable/button_round_login"/>
+
+</LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/back"
+            android:padding="13dp"
+            android:tint="@android:color/black"
+            android:id="@+id/close"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Chef Signup"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

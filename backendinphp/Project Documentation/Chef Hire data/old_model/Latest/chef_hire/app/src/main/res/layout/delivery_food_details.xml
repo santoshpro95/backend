@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_marginBottom="65dp"
+    android:layout_marginTop="60dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90dp"
+                android:gravity="center"
+                android:background="@drawable/circle_border"
+                android:fontFamily="sans-serif-light"
+                android:layout_margin="20dp"
+                android:text=""
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:textSize="21sp"
+                android:id="@+id/time_left"
+                android:textColor="@android:color/black"
+                android:layout_height="90dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:indeterminate="false"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/circular_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progress="0" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <!--2nd tab-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Deliver"
+                android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:id="@+id/delivered"
+                android:textAllCaps="false"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:layout_height="40dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="thalrthhf"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:id="@+id/food_name"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="thalrthhf"
+                    android:textStyle="bold"
+                    android:id="@+id/food_quantity"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/light_grey"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Cooking"
+                    android:id="@+id/status"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/edittext_border"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_grey"/>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="20dp"
+          android:layout_height="wrap_content">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:layout_height="match_parent">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="Pickup (From Chef)"
+                      android:textColor="@android:color/black"
+                      android:textStyle="bold"
+                      android:textSize="15sp"
+                      android:fontFamily="sans-serif-light"
+                      android:layout_height="wrap_content" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="Name santoh"
+                      android:layout_marginTop="10dp"
+                      android:textSize="14sp"
+                      android:id="@+id/c_name"
+                      android:textColor="@android:color/black"
+                      android:layout_height="wrap_content" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="98798780"
+                      android:textSize="12sp"
+                      android:id="@+id/c_phone"
+                      android:textColor="@color/light_grey"
+                      android:layout_height="wrap_content" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="Name santoh sdfsdfsadfsadfsdf"
+                      android:textSize="14sp"
+                      android:id="@+id/c_address"
+                      android:textColor="@android:color/black"
+                      android:layout_height="wrap_content" />
+
+
+
+              </LinearLayout>
+
+
+              <ImageView
+                  android:layout_width="50dp"
+                  android:layout_alignParentRight="true"
+                  android:src="@drawable/phone_call"
+                  android:tint="@android:color/black"
+                  android:layout_centerInParent="true"
+                  android:layout_marginTop="5dp"
+                  android:padding="15dp"
+                  android:id="@+id/c_call"
+                  android:layout_height="50dp" />
+
+          </RelativeLayout>
+
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"
+              android:layout_marginTop="20dp"
+              android:background="@color/light_grey"/>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:layout_marginTop="20dp"
+              android:layout_height="match_parent">
+
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="Deliver (To User)"
+                      android:textColor="@android:color/black"
+                      android:textStyle="bold"
+                      android:textSize="15sp"
+                      android:fontFamily="sans-serif-light"
+                      android:layout_height="wrap_content" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="Name santoh"
+                      android:layout_marginTop="10dp"
+                      android:textSize="14sp"
+                      android:id="@+id/u_name"
+                      android:textColor="@android:color/black"
+                      android:layout_height="wrap_content" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="98798780"
+                      android:id="@+id/u_phone"
+                      android:textSize="12sp"
+                      android:textColor="@color/light_grey"
+                      android:layout_height="wrap_content" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="Name santoh sdfsdfsadfsadfsdf"
+                      android:textSize="14sp"
+                      android:id="@+id/u_address"
+                      android:textColor="@android:color/black"
+                      android:layout_height="wrap_content" />
+
+
+
+              </LinearLayout>
+
+              <ImageView
+                  android:layout_width="50dp"
+                  android:layout_alignParentRight="true"
+                  android:src="@drawable/phone_call"
+                  android:tint="@android:color/black"
+                  android:layout_centerInParent="true"
+                  android:padding="15dp"
+                  android:id="@+id/u_call"
+                  android:layout_height="50dp" />
+          </RelativeLayout>
+
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#DCDCDC"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Kitchen Bill"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Total Money"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="13dp"
+                            android:src="@drawable/rupee"
+                            android:layout_gravity="center"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:id="@+id/food_price"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Accept"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:id="@+id/accept"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/left_arrow"
+            android:id="@+id/back"
+            android:tint="@android:color/black"
+            android:padding="13dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Order Details"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

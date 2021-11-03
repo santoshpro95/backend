@@ -1,0 +1,54 @@
+<?php
+mysql_connect("localhost", "chef_hire", "santoshpro95") or die("Connection Failed");
+mysql_select_db("chef_hire")or die("Connection Failed");
+
+/*get data from database*/
+
+$order_id= $_POST['order_id'];
+
+$sql = "SELECT * from user_service where order_id= '$order_id' ";
+
+        $result = mysql_query($sql);
+/*check data should be more than one*/
+    
+          if (mysql_num_rows($result) > 0) {
+         while ($row = mysql_fetch_array($result)) {
+
+           $postArray[] = array(
+
+               
+                      "s_id" => $row['s_id'],
+		      "phone" => $row['phone'],
+		       "time" => $row['duration'],
+		       "veg" => $row['veg_only'],
+		       
+		       "breakfast"=>  $row['breakfast'],
+			"lunch"=>  $row['lunch'],
+			"dinner" =>  $row['dinner'],
+			
+			"days" =>  $row['days'],
+			"name"=>  $row['name'],
+			"price"=>  $row['price'],
+			
+			"status" =>  $row['status'],
+			"address" =>  $row['address'],
+			"end_date" =>  $row['end_date'],
+			"order_id" =>  $row['order_id'],
+			
+			  "del_name" => $row['del_name'],
+ 			"del_phone" => $row['del_phone'],                   
+ 			"pickup_addr" => $row['pickup_address'],
+ 			"user_name" => $row['user_name'],
+ 			"s_phone" => $row['service_phone']  
+                   
+                   
+                   
+                );
+
+             }
+
+      $output = json_encode(array('data' => $postArray));
+              echo $output;
+      }
+
+?>

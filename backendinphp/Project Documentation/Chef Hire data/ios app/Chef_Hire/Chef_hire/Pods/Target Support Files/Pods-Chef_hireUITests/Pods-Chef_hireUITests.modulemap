@@ -1,0 +1,6 @@
+framework module Pods_Chef_hireUITests {
+  umbrella header "Pods-Chef_hireUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

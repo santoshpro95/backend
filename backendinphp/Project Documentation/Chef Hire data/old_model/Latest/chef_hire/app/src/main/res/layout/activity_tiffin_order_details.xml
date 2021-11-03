@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="65dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_height="40dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="View Menu"
+                    android:textAllCaps="false"
+                    android:id="@+id/view_menu"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@android:color/white"
+                    android:layout_height="35dp" />
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content">
+
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:text="Veg Only"
+                        android:id="@+id/veg_only"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <!-- 2nd tab-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Tiffin Frequency"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="12 days"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:id="@+id/days_no"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+            <!--3rd tab-->
+
+            <!--Date tab-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_grey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Start on"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="End on"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="12th march"
+                        android:layout_weight="1"
+                        android:id="@+id/s_date"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="30th March"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:id="@+id/e_date"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Meals"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_height="45dp">
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:text="Breakfast"
+                        android:id="@+id/breakfast"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:text="Lunch"
+                        android:layout_weight="1"
+                        android:id="@+id/lunch"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:text="Dinner"
+                        android:layout_weight="1"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:id="@+id/dinner"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:textColor="@android:color/black"
+                        android:layout_height="match_parent" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <!-- 4th tab-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Kitchen Bill"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Total To Pay (on first delivery)"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="13dp"
+                            android:src="@drawable/rupee"
+                            android:layout_gravity="center"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:id="@+id/price"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <!--last tab-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Payment Mode"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Cash on Delivery"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/black"/>
+                <!--last tab-->
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Pickup (From)"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="dfhgj,dfg"
+                    android:gravity="center"
+                    android:id="@+id/name"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="987987987"
+                    android:gravity="center"
+                    android:id="@+id/t_phone"
+                    android:textSize="12sp"
+                    android:textColor="@color/light_grey"
+                    android:layout_height="match_parent" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="sdkfjhkdjh,dfhgj,dfg"
+                    android:gravity="center"
+                    android:id="@+id/t_address"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+
+
+
+            </LinearLayout>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/phone_call"
+                    android:tint="@android:color/black"
+                    android:padding="15dp"
+                    android:id="@+id/t_call"
+                    android:layout_centerInParent="true"
+                    android:layout_height="50dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Delivery (To)"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=",dfhgj,dfg"
+                    android:gravity="center"
+                    android:id="@+id/user_name"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="987987987"
+                    android:gravity="center"
+                    android:id="@+id/user_phone"
+                    android:textSize="12sp"
+                    android:textColor="@color/light_grey"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="sdkfjhkdjhdkjghjdhgj,dhgjdfhgj,dfhgj,dfg"
+                    android:gravity="center"
+                    android:id="@+id/address"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/phone_call"
+                    android:tint="@android:color/black"
+                    android:padding="15dp"
+                    android:id="@+id/u_call"
+                    android:layout_centerInParent="true"
+                    android:layout_height="50dp" />
+            </RelativeLayout>
+
+
+            <!--bottom tab-->
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Accept"
+            android:textAllCaps="false"
+            android:id="@+id/accept"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/left_arrow"
+            android:id="@+id/back"
+            android:tint="@android:color/black"
+            android:padding="13dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Tiffin Details"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

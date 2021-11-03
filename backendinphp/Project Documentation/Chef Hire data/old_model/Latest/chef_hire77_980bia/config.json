@@ -1,0 +1,130 @@
+{
+
+
+	"tiffin": {
+		"day": [
+
+			{
+				"frequency": "7"
+			},
+			{
+				"frequency": "15"
+			},
+			{
+				"frequency": "30"
+			}
+
+		]
+
+
+
+	},
+
+
+	"delivery_time": "1", 
+
+
+	"location": {
+
+		"city": [
+	
+				{
+					"name":"chattarpur"
+				},
+				{
+					"name":"AIIMS"
+				},
+				{
+					"name":"Mehurali"
+				},
+				{
+					"name":"Huda city"
+				}
+				
+				
+			]
+		
+	},
+
+
+	"state": [{
+			"name": "Gurugram"
+		},
+		{
+			"name": "Delhi"
+		},
+		{
+			"name": "Noida"
+		}
+	],
+
+	"poster": "false",
+
+	"food_commision": "20",
+
+	"tiffin_commision": "20",
+
+	"help_line": "8826417738",
+
+	"status": {
+
+		"tiffin": [
+
+			{
+				"status": "active"
+			},
+			{
+				"status": "canceled"
+			}
+		],
+
+		"food": [
+
+			{
+				"status": "cook"
+			},
+			{
+				"status": "ride"
+			},
+			{
+				"status": "canceled"
+			},
+			{
+				"status": "delivered"
+			}
+		]
+
+	},
+
+	"delivery_price": "10",
+
+	"delivery_distance": "100",
+
+
+	"chef_type": [
+
+		{
+			"home": "1"
+		},
+		{
+			"resturant": "0"
+		}
+
+
+	],
+
+	"user_home": {
+
+		"pager": [
+
+			{
+				"image": "http://zeenarch.com/chef_hire77_980bia/images/veg_meals.jpg"
+			},
+
+			{
+				"image": "http://zeenarch.com/chef_hire77_980bia/images/veg_meals.jpg"
+			}
+
+		]
+	}
+}

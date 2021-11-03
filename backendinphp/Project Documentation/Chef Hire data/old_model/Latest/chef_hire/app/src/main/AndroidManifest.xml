@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="goodchef.com.chef_hire">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <service android:name=".firebase.FCMInitialService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.Chef_HomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.User_HomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.ChefRegisterScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.UserRegisterScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Legal_PrivacyPolicy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.User_Tracking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.AvailableChef_lists"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.CheckoutScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.OrderDetailsScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.ChefTracking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.UserLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.ChefLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tiffin.OrderTiffin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tiffin.ViewMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tiffin.MyTiffin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tiffin.MyTiffinDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".delivery.DeliveryLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".delivery.DeliveryScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".delivery.FoodOrderDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".delivery.TiffinOrderDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntroScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.LocationScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.ChooseFood"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.MyOrder_lists"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chef.Product_checkout"
+            android:screenOrientation="portrait" />
+        <activity android:name=".chef.MyOrderDetails"></activity>
+    </application>
+
+</manifest>

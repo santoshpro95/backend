@@ -1,0 +1,39 @@
+create table:
+
+CREATE TABLE persons (
+    ID int NOT NULL AUTO_INCREMENT,
+    name varchar(255) NOT NULL,
+    fb_id varchar(255) AUTO_INCREMENT,
+    Age int,
+    PRIMARY KEY (ID)
+);
+
+
+
+
+
+
+
+Create persons_friend table:
+
+CREATE TABLE persons_friend (
+    ID int NOT NULL AUTO_INCREMENT,
+    my_fb_id varchar(255) NOT NULL,
+    my_name varchar(255) AUTO_INCREMENT,
+     friend_fb_id varchar(255) NOT NULL,
+    friend_name varchar(255) AUTO_INCREMENT,
+    PRIMARY KEY (ID)
+);
+
+
+--------------------------------------------------------------------------------------------
+
+Persons_chat creating table:
+CREATE TABLE persons_chat (
+    ID int NOT NULL AUTO_INCREMENT,
+    my_fb_id varchar(255) NOT NULL,
+    chat varchar(255),
+     friend_fb_id varchar(255) NOT NULL,
+  	alpha varchar(20),
+    PRIMARY KEY (ID)
+)

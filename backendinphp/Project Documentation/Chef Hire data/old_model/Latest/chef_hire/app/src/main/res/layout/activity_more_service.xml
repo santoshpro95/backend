@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="goodchef.com.chef_hire.tiffin.TiffinLists">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/msg"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@color/light_grey"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/head"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:id="@+id/state_list"
+           android:layout_height="wrap_content">
+
+
+       </android.support.v7.widget.RecyclerView>
+
+<View
+    android:layout_width="match_parent"
+    android:background="@color/light_grey"
+    android:layout_height="0.5dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recycler_view"
+                android:layout_height="match_parent">
+
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/head"
+        android:background="@android:color/white"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/left_arrow"
+            android:id="@+id/back"
+            android:tint="@android:color/black"
+            android:padding="13dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Tiffin"
+            android:textSize="16sp"
+            android:id="@+id/tiffin"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#DCDCDC"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

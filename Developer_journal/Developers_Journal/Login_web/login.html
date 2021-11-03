@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DJ login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/home.css" >
+
+
+<style type="text/css">
+  
+
+
+  .circle {
+
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  background: #6480F6
+}
+
+
+.card2 {
+    background-color: #ffffff;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:205px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.3);
+
+}
+
+
+.card-container.card2 {
+    max-width: 570px;
+    padding: 5px 5px 5px 5px;
+     display: inline-block;
+
+}
+</style>
+
+
+<script type="text/javascript">
+  
+
+
+  function myFunction() {
+    document.getElementById('otp').style.cssText = 'display: unset; ';
+    document.getElementById('otp2').style.cssText = 'display: unset; margin-bottom:20px; height:50px';
+}
+
+
+</script>
+
+
+  </head>
+  <body>
+
+    <div class="container">
+  <div class="text-center">
+  <br>
+<p style="text-align: center; font-size:  45px; font-family: Freestyle Script">ZEENARCH.com</p>
+
+</div>
+        <div class="card card-container ">
+         <h4 align="center" style="color: #E42F15;   font-weight: 300; font-family: sans-serif;" > Welcome to Developer's Journal</h4>
+            <h5 align="center" style="color: #696969; font-weight: 300;" >Please enter Email and password to join</h5>
+
+     <div class="card2 card-container ">
+        <form class="form-inline">
+         <div class="circle"  > <?php echo"2" ?></div>
+         <div align="center" style="color: #000; font-size: 15px; margin-left: 10px;margin-right:  10px; font-weight: 400;" >People joined </div>
+         </form>
+     </div>
+
+
+
+            <form class="form-signin " method="get" action="php_files/login.php">
+                <span id="reauth-email" class="reauth-email"></span>
+          
+  <div style="font-size: 15px; margin-bottom: 5px;" >Email</div>
+<input style="height:50px" name="username" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+
+
+  <div id="otp" style="font-size: 15px;display: none; margin-bottom: 5px">Password</div>
+<input id="otp2" style="display: none" name="password" type="password" id="inputEmail" class="form-control" placeholder="Password" required autofocus>
+
+ 
+<br>
+
+
+<button onclick="myFunction()"  type="submit" class="btn btn-default" style="background:  #E42F15 ; height: 50px;color: white; width: 33% ;font-weight: 400;  border-radius: 5px " type="submit">Sign in</button>
+
+
+            </form>
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+
+  </body>
+</html>
